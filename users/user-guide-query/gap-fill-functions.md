@@ -42,7 +42,7 @@ There are two ways of gap filling the data: FILL\_PREVIOUS\_VALUE and FILL\_DEFA
 
 FILL\_PREVIOUS\_VALUE means the missing data will be filled with the previous value for the specific entity, in this case, park lot, if the previous value exists. Otherwise, it will be filled with the default value.
 
-FILL\_DEFAULT\_VALUE means that the missing data will be filled with the default value. For numeric column, the defaul value is 0. For Boolean column type, the default value is false. For TimeStamp, it is January 1, 1970, 00:00:00 GMT. For STRING, JSON and BYTES, it is empty String. For Array type of column, it is empty array.
+FILL\_DEFAULT\_VALUE means that the missing data will be filled with the default value. For numeric column, the default value is 0. For Boolean column type, the default value is false. For TimeStamp, it is January 1, 1970, 00:00:00 GMT. For STRING, JSON and BYTES, it is empty String. For Array type of column, it is empty array.
 
 We will leverage the following the query to calculate the total occupied parking lots per time bucket.
 
